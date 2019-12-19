@@ -1,0 +1,49 @@
+{
+    "name": "Philadelphia Pennsylvania 311",
+    "description": "<p>Philly311's goal is to provide world-class service for all our channels-phone,email,mobile,web and social media.&nbsp; &nbsp;When you submit a service ticket we aim to deliver you timely updates and accurate information. By working closely with city departments, we develop valuable insights that help to improve our city.&nbsp; &nbsp;&nbsp;<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/philly-311.jpg",
+    "tags": [
+        "311",
+        "have api",
+        "open311"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/philadelphia-pennsylvania-311\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Philadelphia Pennsylvania 311",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/philly-311.jpg",
+            "humanURL": "http:\/\/www.phila.gov\/311\/pages\/default.aspx",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/philadelphia-pennsylvania-311-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/philadelphia-pennsylvania-311-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Open 311 Feed",
+            "url": "http:\/\/www.publicstuff.com\/api\/open311\/services.xml?jurisdiction_id=philadelphia-pa"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/philly311"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.phila.gov\/311\/pages\/default.aspx"
+        }
+    ]
+}
