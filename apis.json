@@ -7,8 +7,8 @@
         "have api",
         "open311"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/philadelphia-pennsylvania-311\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -21,18 +21,18 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/philadelphia-pennsylvania-311-openapi.json"
-                },
-                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/philadelphia-pennsylvania-311-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/philadelphia-pennsylvania-311\/master\/philadelphia-pennsylvania-311-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Open 311 Feed",
             "url": "http:\/\/www.publicstuff.com\/api\/open311\/services.xml?jurisdiction_id=philadelphia-pa"
